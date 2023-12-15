@@ -1,54 +1,12 @@
-.todo-list-container {
-    text-align: center;
-  }
+
+/* 
+
+    You can write your own styles here...
     
-    .todo-list-title {
-      color: #883904;
-      font-size: 80px;
-      font-weight: lighter;
-    }
     
-    .todo-input {
-      margin-right: 5px;
-      width: 30%;
-    }
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
     
-    .todo-items {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      list-style: none;
-    }
-    .todo-item {
-      color: #333;
-      background-color: #f1f1f1;
-      padding: 8px;
-      margin: 5px 0;
-      width: 30%;
-    }
-    
-  
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .todo-item {
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    
-    .delete-button {
-      display: none;
-      position: absolute;
-      right: 0;
-      background: none;
-      border: none;
-      cursor: pointer;
-    }
-    
-    .todo-item:hover .delete-button {
-      display: block;
-    }
-    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
